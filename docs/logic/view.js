@@ -11,7 +11,7 @@ function View()
     STATSNUMTAGS: 5,
     STATSNUMTYPE: 10,
     WIDEGRIDITEM: true,
-    USEMASONRY: true,
+    USEMASONRY: false,
     GRIDITEMIDBASE: 'item',
     SHOWUPPER: true,
     SHOWTITLE: true,
