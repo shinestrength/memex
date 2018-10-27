@@ -42,6 +42,7 @@ function View()
         itemSelector: '.griditem',
         columnWidth: 50,
         gutter: 10,
+        horizontalOrder: true,
         fitWidth: true,
         transitionDuration: 0,
       });
