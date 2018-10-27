@@ -40,10 +40,11 @@ function View()
       this.msnry = new Masonry('.grid', 
       {
         itemSelector: '.griditem',
-        columnWidth: 50,
+        columnWidth: 350,
         gutter: 10,
         fitWidth: true,
-        transitionDuration: 500,
+        fitHeight: true,
+        transitionDuration: 0,
       });
     }
   }
@@ -76,7 +77,7 @@ function View()
 
     var imgLoad = imagesLoaded( container );
     // When all images finish: redo mansonry layout
-    imgLoad.on( 'always', function() { parent.msnry.layout(); } );
+    //imgLoad.on( 'always', function() { parent.msnry.layout(); } );
   }
 
   this.buildEntry = function(db, key)
