@@ -4,6 +4,7 @@ MB
   FILE : motherBoard.jpg
   TYPE : image
   LINK : https://raw.githubusercontent.com/shinestrength/memex/master/docs/content/media/motherBoard.jpg
+  WIDE : true
 
 WATCH WITCH
   DATE : 12018-10-25
@@ -27,6 +28,12 @@ BLUE OCEAN STRATEGY
   TYPE : image
   LINK : https://raw.githubusercontent.com/shinestrength/memex/master/docs/content/media/blueOceanStrategy.jpeg
 
+THE SHAPE OF THE BLACK SUN
+  DATE : 12018-10-25
+  FILE : theShapeOfTheBlackSun.png
+  TYPE : image
+  WIDE : true
+  
 BOOM
   DATE : 12018-10-25
   FILE : boom.jpeg
@@ -39,11 +46,6 @@ BUBBLE DOOR
   TYPE : image
   LINK : https://raw.githubusercontent.com/shinestrength/memex/master/docs/content/media/bubbleDoor.jpeg
 
-BUSH PIG ASCENDS INTO THE COSMOS
-  DATE : 12018-10-25
-  FILE : bushPigAscendsIntoTheCosmos.png
-  TYPE : image
-  LINK : https://raw.githubusercontent.com/shinestrength/memex/master/docs/content/media/bushPigAscendsIntoTheCosmos.png
 
 CHROMACON
   DATE : 12018-10-25
@@ -391,12 +393,6 @@ THE CASTLE THE BEACH
   TYPE : image 
   LINK : https://raw.githubusercontent.com/shinestrength/memex/master/docs/content/media/theCastleTheBeach.jpeg
 
-THE SHAPE OF THE BLACK SUN
-  DATE : 12018-10-25
-  FILE : theShapeOfTheBlackSun.png
-  TYPE : image
-  WIDE : true
-   
 MIST, CURLED BACK
   DATE : 12018-10-25
   FILE : mist.png
@@ -412,3 +408,9 @@ A LOCAL CYBERDEMON
   FILE : aLocalCyberdemon.png
   TYPE : image
   LINK : https://raw.githubusercontent.com/shinestrength/memex/master/docs/content/media/aLocalCyberdemon.png
+
+BUSH PIG ASCENDS INTO THE COSMOS
+  DATE : 12018-10-25
+  FILE : bushPigAscendsIntoTheCosmos.png
+  TYPE : image
+  LINK : https://raw.githubusercontent.com/shinestrength/memex/master/docs/content/media/bushPigAscendsIntoTheCosmos.png
