@@ -1,6 +1,7 @@
 FIREFALL
   FILE : fireFall.png
   TYPE : image
+  WIDE : true
 
 SNAPPER AND I
   FILE : snapperAndI.png
@@ -13,3 +14,4 @@ THE CASTLE THE BEACH
 THE SHAPE OF THE BLACK SUN
   FILE : theShapeOfTheBlackSun.png
   TYPE : image
+  WIDE : true
