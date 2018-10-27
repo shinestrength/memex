@@ -42,7 +42,6 @@ function View()
         itemSelector: '.griditem',
         columnWidth: 50,
         gutter: 10,
-        horizontalOrder: true,
         fitWidth: true,
         transitionDuration: 0,
       });
@@ -294,7 +293,7 @@ function View()
     // IMAGE
     if (SETTINGS.SHOWIMAG)
     {
-      if (typeof value.TYPE !== 'undefined' && value.TYPE == 'image')
+      if (typeof value.TYPE !== 'undefined' && value.TYPE == 'image' || typeof value.TYPE !== 'undefined' && value.TYPE == 'game')
       {
         if (typeof value.FILE !== 'undefined')
         {
