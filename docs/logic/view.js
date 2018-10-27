@@ -334,7 +334,7 @@ function View()
     menuContent += `<i class="menu-itemicon fas fa-asterisk"></i>`;
     menuContent += `</a>`;
     menuContent += `</div>`;
-
+/*
     // DONE
     menuContent += `<div class="menu-itemgroup">`;
 
@@ -349,7 +349,7 @@ function View()
     menuContent += `</a>`;
 
     menuContent += `</div>`;
-    menuContent += `<div class="menu-itemgroup">`;
+    menuContent += `<div class="menu-itemgroup">`;*/
     for (var ty = 0; ty < Math.min(value.types.length, SETTINGS.STATSNUMTYPE); ty++) 
     {
       if (value.types[ty][0] == 'article')
