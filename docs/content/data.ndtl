@@ -4,6 +4,9 @@ BATSCII
   TYPE : article
   NOTE : This is a note about this text post.
          & yo
+  QOTE
+    > "Things"
+    > "Stuff"         
        
 
 TEXT POST II
