@@ -1,3 +1,12 @@
+TEXT POST
+  DATE : 12018-10-23
+  TYPE : note
+  NOTE : This is a note about this text post.
+  QOTE     
+    > 'Emergency navigation' (1989)
+    > "He outlines ancient Polynesian and Arab navigation methods, which I used to love to practice when on watch at night. It's a book that might take you 30 years to master. it's an old book, new copies are for sale at $950, whilst used ones can be found for $0.01. I have a digital and print version. I'd LOVE to practice these skills on another Pacific trip, or two. He outlines methods using an old bit of stick with some string (a kamal) for measuring angles. And your fingers. And they work!!!"
+  WIDE : true
+
 FIREFALL
   DATE : 12018-10-25
   FILE : fireFall.png
@@ -27,11 +36,3 @@ MIST, CURLED BACK
   LINK : https://raw.githubusercontent.com/shinestrength/memex/master/docs/content/media/mist.png
   
 
-TEXT POST
-  DATE : 12018-10-23
-  TYPE : note
-  NOTE : This is a note about this text post.
-  QOTE     
-    > 'Emergency navigation' (1989)
-    > "He outlines ancient Polynesian and Arab navigation methods, which I used to love to practice when on watch at night. It's a book that might take you 30 years to master. it's an old book, new copies are for sale at $950, whilst used ones can be found for $0.01. I have a digital and print version. I'd LOVE to practice these skills on another Pacific trip, or two. He outlines methods using an old bit of stick with some string (a kamal) for measuring angles. And your fingers. And they work!!!"
-  WIDE : true
