@@ -43,7 +43,7 @@ function View()
         columnWidth: 50,
         gutter: 10,
         fitWidth: true,
-        transitionDuration: 0,
+        transitionDuration: 500,
       });
     }
   }
