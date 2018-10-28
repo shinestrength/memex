@@ -11,7 +11,7 @@ function View()
     STATSNUMTAGS: 5,
     STATSNUMTYPE: 10,
     WIDEGRIDITEM: true,
-    USEMASONRY: false,
+    USEMASONRY: true,
     GRIDITEMIDBASE: 'item',
     SHOWUPPER: true,
     SHOWTITLE: true,
@@ -40,7 +40,7 @@ function View()
       this.msnry = new Masonry('.grid', 
       {
         itemSelector: '.griditem',
-        columnWidth: 50,
+        columnWidth: '.griditem',
         gutter: 10,
         fitWidth: true,
         transitionDuration: 0,
