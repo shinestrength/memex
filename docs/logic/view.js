@@ -11,7 +11,7 @@ function View()
     STATSNUMTAGS: 5,
     STATSNUMTYPE: 10,
     WIDEGRIDITEM: true,
-    USEMASONRY: false,
+    USEMASONRY: true,
     GRIDITEMIDBASE: 'item',
     SHOWUPPER: true,
     SHOWTITLE: true,
@@ -43,7 +43,6 @@ function View()
         columnWidth: 50,
         gutter: 10,
         fitWidth: true,
-        fitHeight: true,
         transitionDuration: 0,
       });
     }
