@@ -40,7 +40,7 @@ function View()
       this.msnry = new Masonry('.grid', 
       {
         itemSelector: '.griditem',
-        columnWidth: '.griditem',
+        columnWidth: 350,
         gutter: 10,
         fitWidth: true,
         transitionDuration: 0,

@@ -1,20 +1,35 @@
+SECRET SCREEN
+  DATE : 12018-10-25
+  FILE : secretScreen.jpg
+  TYPE : image
+  LINK : https://raw.githubusercontent.com/shinestrength/memex/master/docs/content/media/secretScreen.jpg
+  WIDE : true
+  
+GOLDEN KNIGHT
+  DATE : 12018-10-25
+  FILE : goldenKnight.jpg
+  TYPE : image
+  LINK : https://raw.githubusercontent.com/shinestrength/memex/master/docs/content/media/goldenKnight.jpg
+
 MANTLE OUT OF SELF
   DATE : 12018-10-25
   FILE : mantleOutOfSelf.jpg
   TYPE : image
   LINK : https://raw.githubusercontent.com/shinestrength/memex/master/docs/content/media/mantleOutOfSelf.jpg
-
+  
 MEMORY OF A DAY
   DATE : 12018-10-25
   FILE : memoryOfThatDay.jpg
   TYPE : image
   LINK : https://raw.githubusercontent.com/shinestrength/memex/master/docs/content/media/memoryOfThatDay.jpg
+  
 
 MEGASNEEZE
   DATE : 12018-10-25
   FILE : megaSneeze.jpg
   TYPE : image
   LINK : https://raw.githubusercontent.com/shinestrength/memex/master/docs/content/media/megaSneeze.jpg
+  WIDE : true
 
 LEVEL DESIGN WIP, ZIPSQUID
   DATE : 12018-10-25
@@ -431,7 +446,6 @@ FIREFALL
   TYPE : image
   DONE : true
 
- 
 SNAPPER AND I
   DATE : 12018-10-25
   FILE : snapperAndI.jpg
@@ -441,7 +455,7 @@ SNAPPER AND I
 THE CASTLE THE BEACH
   DATE : 12018-10-25
   FILE : theCastleTheBeach.jpeg
-  TYPE : image 
+  TYPE : image
   LINK : https://raw.githubusercontent.com/shinestrength/memex/master/docs/content/media/theCastleTheBeach.jpeg
 
 MIST, CURLED BACK
