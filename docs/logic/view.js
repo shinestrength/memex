@@ -76,7 +76,7 @@ function View()
 
     var imgLoad = imagesLoaded( container );
     // When all images finish: redo mansonry layout
-    imgLoad.on( 'always', function() { parent.msnry.layout(); } );
+   imgLoad.on( 'progress', function() { parent.msnry.layout(); } );
   }
 
   this.buildEntry = function(db, key)
