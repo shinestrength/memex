@@ -4,22 +4,16 @@ function Main()
   this.view = null;
   this.add = null;
   this.write = null;
-  this.theme = null;
-  this.lightbox = null;
-
   this.queryCur = '';
   this.queryPrev = '';
   this.queryPrevAdd = '';
-
+  this.theme = new Theme();
   var parent = this;
   const FILELOCATION = 'content/data.ndtl';
 
   this.install = function()
   {
-    this.theme = new Theme();
     this.theme.install();
-    this.lightbox = new Lightbox;
-    this.lightbox.install();
 
     var oReq = new XMLHttpRequest();
     oReq.open('GET', FILELOCATION);
@@ -35,7 +29,7 @@ function Main()
     this.view = new View();
     this.view.install();
 
-    if (window.showAdd !== undefined && window.showAdd)
+    if (window.showAdd != undefined && window.showAdd)
     {
       this.add = new Add();
       this.add.install();
@@ -58,15 +52,15 @@ function Main()
 
   this.load = function(target)
   {
-    this.lightbox.close();
+    console.log('main.load: ' + target)
 
     document.activeElement.blur();
-    if (this.queryCur !== 'add')
+    if (this.queryCur != 'add')
     {
       this.queryPrev = this.queryCur;
     }
-
-    target = target.substr(0,1) === "#" ? target.substr(1,target.length-1) : target;
+    
+    target = target.substr(0,1) == "#" ? target.substr(1,target.length-1) : target;
     this.queryCur = target.trim();
 
     if (window.location.hash != this.queryCur)
@@ -74,7 +68,7 @@ function Main()
       window.location.hash = this.queryCur;
     }
 
-    if (this.queryCur === 'add')
+    if (this.queryCur == 'add')
     {
       if (window.showAdd != undefined && window.showAdd)
       {

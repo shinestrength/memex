@@ -20,7 +20,7 @@
 
   --alpha-darken: 0.2;
   --alpha-idleicon: 0.2;
-  --alpha-idle: 0.4;
+  --alpha-idle: 1.0;
   --alpha-enabledicon: 0.4;
   --alpha-enabled: 1.0;
   --alpha-ascent: 1.0;
@@ -235,7 +235,7 @@ body {
   height: 100%;
   width: 100%;
   left: 0;
-  z-index: 200;
+  z-index: 300;
   top: 0;
 }
 .griditem-image .griditem-containerlower {
@@ -243,7 +243,7 @@ body {
   position: absolute;
   width: 100%;
   bottom: 0;
-  z-index: 200;
+  z-index: 300;
   left: 0;
 }
 .griditem-image {
@@ -261,15 +261,6 @@ body {
   z-index: 100;
   top: 0;
   left: 0;
-}
-.griditem-img {
-  vertical-align: middle; /* vertical-align css hack removes bottom padding */
-  width: calc(100% + var(--size-grid-gutter)*2);
-  max-height: 1000px;
-  margin-left: calc(-1 * var(--size-grid-gutter));
-  margin-right: calc(-1 * var(--size-grid-gutter));
-  padding-top: var(--size-grid-gutter);
-  cursor: pointer;
 }
 .image-overlay { 
   background-color: var(--color-imagedarken);
@@ -355,22 +346,18 @@ body {
 }
 
 /* TYPE */
-.griditem-typecontainer {
-  position: absolute;
-  right: 0px;
-  top: 0px;
-  margin-right: var(--size-grid-gutter);
-}
 .griditem-type {
   opacity: var(--alpha-idle);
-  width: calc(var(--size-font-bodytypes)*2);
+  width: calc(var(--size-font-bodytypes)*2 + var(--size-grid-gutter));
   color: var(--color-item);
   padding-bottom: var(--size-grid-gutter);
   font-size: var(--size-font-bodytypes);
   padding-top: var(--size-grid-gutter);
   vertical-align: top;
   text-align: center;
-  float: right;
+  position: absolute;
+  right: 0px;
+  top: 0px;
 }
 .griditem-typeicon {
   opacity: var(--alpha-idleicon);
@@ -397,14 +384,7 @@ body {
 }
 
 /* NOTE, QUOTE, TERM, TAGS, AUTH, PROG */
-.griditem-note,
-.griditem-quote,
-.griditem-term,
-.griditem-tags,
-.griditem-proj,
-.griditem-auth,
-.griditem-file,
-.griditem-prog {
+.griditem-note, .griditem-quote, .griditem-term, .griditem-tags, .griditem-auth, .griditem-prog {
   opacity: var(--alpha-idle);
   padding-top: var(--size-item-elem-padding);
   color: var(--color-item); 
@@ -416,9 +396,7 @@ body {
 .griditem:hover .griditem-quote, 
 .griditem:hover .griditem-term, 
 .griditem:hover .griditem-tags,
-.griditem:hover .griditem-proj,
 .griditem:hover .griditem-auth,
-.griditem:hover .griditem-file,
 .griditem:hover .griditem-prog {
   opacity: var(--alpha-enabled);
   color: var(--color-item);
@@ -428,26 +406,9 @@ body {
 .griditem-image .griditem-quote, 
 .griditem-image .griditem-term, 
 .griditem-image .griditem-tags,
-.griditem-image .griditem-proj,
 .griditem-image .griditem-auth,
-.griditem-image .griditem-file,
 .griditem-image .griditem-prog {
   color: var(--color-image); 
-}
-
-.griditem-file {
-  word-break: break-all;
-}
-
-.griditem-file-link {
-  color: var(--color-item); 
-  text-decoration: none;
-}
-
-.griditem-file-link:hover {
-  background-color: var(--color-itemascent);
-  color: var(--color-itembg);
-  word-break: break-all;
 }
 
 /* IMAGE */
@@ -485,38 +446,14 @@ body {
   opacity: var(--alpha-enabledicon);
 }
 
-/* LIGHTBOX */
-.lightbox {
-  position: fixed;
-  z-index: 300;
-  width: 100%;
-  height: 100%;
-  left: 0;
-  top: 0;
-  display: flex;
-  align-items: center;
-  display: none;
-}
-.lightbox-back {
-  z-index: 300;
-  background-color: rgba(0,0,0,0.9);
-  width: 100%;
-  height: 100%;
-  cursor: pointer;
-}
-.lightbox-item {
-  z-index: 400;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateY(-50%) translateX(-50%);
-  vertical-align: middle;
-}
-.lightbox-img {
-  max-height: 100vh;
-  max-width: 100vw;
-  cursor: pointer;
-}
+
+
+
+
+
+
+
+
 
 
 
@@ -588,9 +525,13 @@ body {
   padding: 10px;
   width: 400px;
   margin-bottom: 10px;
+  /*background-color: transparent;*/
   background-color: var(--color-page-input);
   color: #fff;
   border-width: 0px;
+  /*border-width: 1px;
+  border-style: solid;
+  border-color: var(--color-menu);*/
   border-radius: var(--size-item-corner);
 }
 .page-overlay .content .row input::placeholder {
@@ -598,9 +539,11 @@ body {
   color: var(--color-menu);
 }
 .page-overlay .content .row input:hover {
+  /*background-color: var(--color-itemascent);*/
   background-color: var(--color-page-i);
 }
 .page-overlay .content .row input:focus {
+  /*background-color: var(--color-itemascent);*/
   background-color: var(--color-page-e);
 }
 .page-overlay .content .display {

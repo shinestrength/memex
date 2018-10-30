@@ -12,36 +12,21 @@ function Wrap()
 
   this.process = function()
   {
-    for (let i = 0; i < this.keys.length; i++)
-    {
+    for (i = 0; i < this.keys.length; i++) 
+    { 
       let value = this.database[this.keys[i]];
 
-      this.database[this.keys[i]].TAGS = this.commaSplit(value.TAGS);
-      this.database[this.keys[i]].TYPE = this.commaSplit(value.TYPE);
-      this.database[this.keys[i]].PROJ = this.commaSplit(value.PROJ);
-
-      // LINK
-      if (typeof value.LINK == 'object')
+      // TAGS
+      if (typeof value.TAGS !== 'undefined')
       {
-        for (let l = 0; l < value.LINK.length; l++)
-        {
-          if (value.LINK[l].substr(0,2) == '> ')
-          {
-            value.LINK[l] = value.LINK[l].substr(2,value.LINK[l].length-1);
-          }
-        }
-      }
+        var tags = value.TAGS.split(",");
 
-      // FILE
-      if (typeof value.FILE == 'object')
-      {
-        for (let f = 0; f < value.FILE.length; f++)
+        for (var t = 0; t < tags.length; t++)
         {
-          if (value.FILE[f].substr(0,2) == '> ')
-          {
-            value.FILE[f] = value.FILE[f].substr(2,value.FILE[f].length-1);
-          }
+          tags[t] = tags[t].trim().toLowerCase();
         }
+
+        this.database[this.keys[i]].TAGS = tags;
       }
 
       this.database[this.keys[i]].DIID = i;
@@ -57,8 +42,8 @@ function Wrap()
     }
     else if (target == 'term')
     {
-      for (let i = 0; i < this.keys.length; i++)
-      {
+      for (i = 0; i < this.keys.length; i++) 
+      { 
         let value = this.database[this.keys[i]];
         if (typeof value.TERM !== 'undefined')
         {
@@ -72,34 +57,15 @@ function Wrap()
       if (splitTarget[0] == 'tag')
       {
         // TAG
-        let tagRequest = decodeURI(splitTarget[1]);
-        for (let i = 0; i < this.keys.length; i++) 
-        {
+        var tagDecoded = decodeURI(splitTarget[1]);
+        for (i = 0; i < this.keys.length; i++) 
+        { 
           let value = this.database[this.keys[i]];
           if (typeof value.TAGS !== 'undefined')
           {
-            for (let t = 0; t < value.TAGS.length; t++)
+            for (var t = 0; t < value.TAGS.length; t++)
             {
-              if (value.TAGS[t] == tagRequest)
-              {
-                tempDatabase[this.keys[i]] = this.database[this.keys[i]];
-              }
-            }
-          }
-        }
-      }
-      if (splitTarget[0] == 'proj')
-      {
-        // PROJECT
-        let projectRequest = decodeURI(splitTarget[1]);
-        for (let i = 0; i < this.keys.length; i++) 
-        { 
-          let value = this.database[this.keys[i]];
-          if (typeof value.PROJ !== 'undefined')
-          {
-            for (let p = 0; p < value.PROJ.length; p++)
-            {
-              if (value.PROJ[p] == projectRequest)
+              if (value.TAGS[t] == tagDecoded)
               {
                 tempDatabase[this.keys[i]] = this.database[this.keys[i]];
               }
@@ -110,30 +76,15 @@ function Wrap()
       else if (splitTarget[0] == 'type')
       {
         // TYPE
-        let typeRequest = decodeURI(splitTarget[1]);
-        for (let i = 0; i < this.keys.length; i++) 
+        var tagDecoded = decodeURI(splitTarget[1]);
+        for (i = 0; i < this.keys.length; i++) 
         { 
           let value = this.database[this.keys[i]];
           if (typeof value.TYPE !== 'undefined')
           {
-            if (typeof value.TYPE == 'object')
+            if (value.TYPE == tagDecoded)
             {
-              // This entry has multiple types
-              for (let t = 0; t < value.TYPE.length; t++)
-              {
-                if (value.TYPE[t] == typeRequest)
-                {
-                  tempDatabase[this.keys[i]] = this.database[this.keys[i]];
-                }
-              }
-            }
-            else
-            {
-              // This entry has a single type
-              if (value.TYPE == typeRequest)
-              {
-                tempDatabase[this.keys[i]] = this.database[this.keys[i]];
-              }
+              tempDatabase[this.keys[i]] = this.database[this.keys[i]];
             }
           }
         }
@@ -141,8 +92,8 @@ function Wrap()
       else if (splitTarget[0] == 'done')
       {
         // DONE
-        let doneValue = decodeURI(splitTarget[1]);
-        for (let i = 0; i < this.keys.length; i++) 
+        var doneValue = decodeURI(splitTarget[1]);
+        for (i = 0; i < this.keys.length; i++) 
         { 
           let value = this.database[this.keys[i]];
           if (doneValue == 'true')
@@ -270,19 +221,5 @@ function Wrap()
     stats.tags = tagItems;
 
     return stats;
-  }
-
-  this.commaSplit = function(data)
-  {
-    if (data !== undefined)
-    {
-      var result = data.split(",");
-      for (var t = 0; t < result.length; t++)
-      {
-        result[t] = result[t].trim().toLowerCase();
-      }
-      return result;
-    }
-    return data;
   }
 }
