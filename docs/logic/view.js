@@ -77,9 +77,9 @@ function View()
 
     let imgLoad = imagesLoaded( container );
     // When all images finish: redo mansonry layout
-    imgLoad.on( 'always', function() { parent.msnry.layout(); } );
+    //imgLoad.on( 'always', function() { parent.msnry.layout(); } );
     // As images load one by one: redo masonry layout
-    // imgLoad.on( 'progress', function() { parent.msnry.layout(); } );
+     imgLoad.on( 'progress', function() { parent.msnry.layout(); } );
   }
 
   this.buildEntry = function(db, key)
@@ -313,7 +313,7 @@ function View()
     menuContent += `</a>`;
     menuContent += `</div>`;
 
-    // DONE
+   /* // DONE
     menuContent += `<div class="menu-itemgroup">`;
     menuContent += `<a href='#done-true' class="menu-item">`;
     menuContent += `<div class="menu-itemcount">${value.done}</div>`;
@@ -323,7 +323,7 @@ function View()
     menuContent += `<div class="menu-itemcount">${value.total - value.done}</div>`;
     menuContent += `<i class="menu-itemicon fas fa-times"></i>`;
     menuContent += `</a>`;
-    menuContent += `</div>`;
+    menuContent += `</div>`;*/
 
     menuContent += `<div class="menu-itemgroup">`;
     for (let ty = 0; ty < Math.min(value.types.length, SETTINGS.STATSNUMTYPE); ty++) 
