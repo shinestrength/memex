@@ -313,8 +313,8 @@ function View()
     menuContent += `</a>`;
     menuContent += `</div>`;
 
-   /* // DONE
-    menuContent += `<div class="menu-itemgroup">`;
+    // DONE
+   /* menuContent += `<div class="menu-itemgroup">`;
     menuContent += `<a href='#done-true' class="menu-item">`;
     menuContent += `<div class="menu-itemcount">${value.done}</div>`;
     menuContent += `<i class="menu-itemicon fas fa-check"></i>`;
@@ -356,7 +356,7 @@ function View()
     {
       menuContent += `<div class="menu-tagcontainer">`;
       menuContent += `<i class="menu-tagicon fas fa-tag"></i>`;
-      for (var t = 0; t < Math.min(value.types.length, SETTINGS.STATSNUMTAGS); t++) 
+      for (var t = 0; t < Math.min(value.tags.length, SETTINGS.STATSNUMTAGS); t++)
       {
         menuContent += `<a class="menu-tag" href='#tag-${value.tags[t][0]}'>`;
         // menuContent += `<i class="fas fa-tag textIcon"></i>`;
