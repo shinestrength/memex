@@ -1,4 +1,4 @@
-var DATABASE = `
+
 LIGHTING FIRES, POETICS AND SENSATION
   DATE : 12018-10-25
   TYPE : article
@@ -666,4 +666,3 @@ MY CAT, NAPPING FOR HOURS
   DATE : 12018-10-25
   TYPE : video
   LINK : https://www.youtube.com/watch?v=E0k4gbCPs1E
-`

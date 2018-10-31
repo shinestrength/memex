@@ -6,6 +6,29 @@ function View()
   this.grid = null;
   this.menu = null;
   var parent = this;
+    
+  const SETTINGS = {
+    STATSNUMTAGS: 5,
+    STATSNUMTYPE: 10,
+    WIDEGRIDITEM: true,
+    USEMASONRY: true,
+    GRIDITEMIDBASE: 'item',
+    SHOWUPPER: true,
+    SHOWTITLE: true,
+    SHOWAUTH: true,
+    SHOWTYPE: true,
+    SHOWLINK: true,
+    SHOWLOWER: true,
+    SHOWTAGS: true,
+    SHOWPROJ: true,
+    SHOWNOTE: true,
+    SHOWQOTE: true,
+    SHOWTERM: true,
+    SHOWPROG: true,
+    SHOWIMAG: true,
+    SHOWFILE: true,
+    SHOWOVERLAY: true
+  }
 
   this.install = function()
   {
@@ -50,22 +73,13 @@ function View()
     {
       this.msnry.reloadItems();
       this.msnry.layout();
-
-      if (SETTINGS.MASONRYCOMPLETE || SETTINGS.MASONRYPROGRESS)
-      {
-        let imgLoad = imagesLoaded( container );
-        if (!SETTINGS.MASONRYPROGRESS)
-        {
-          // When all images finish: redo mansonry layout
-          imgLoad.on( 'always', function() { parent.msnry.layout(); } );
-        }
-        else
-        {
-          // As images load one by one: redo masonry layout
-          imgLoad.on( 'progress', function() { parent.msnry.layout(); } );
-        }
-      }
     }
+
+    let imgLoad = imagesLoaded( container );
+    // When all images finish: redo mansonry layout
+    //imgLoad.on( 'always', function() { parent.msnry.layout(); } );
+    // As images load one by one: redo masonry layout
+     imgLoad.on( 'progress', function() { parent.msnry.layout(); } );
   }
 
   this.buildEntry = function(db, key)
@@ -80,7 +94,7 @@ function View()
       }
       else if (this.isDefined(value.QOTE))
       {
-        if (Array.isArray(value.QOTE) && value.QOTE.length > SETTINGS.AUTOWIDETRIGGER)
+        if (Array.isArray(value.QOTE) && value.QOTE.length > 4)
         {
           itemClass += " griditem-wide";
         } 
@@ -88,8 +102,7 @@ function View()
     }
 
     let onclickImage = ``;
-    let entryIsImageType = (SETTINGS.SHOWIMAG && this.isType(value.TYPE, 'image'));
-    if (entryIsImageType)
+    if (SETTINGS.SHOWIMAG && this.isType(value.TYPE, 'image'))
     {
       itemClass += " griditem-image";
       onclickImage = `onclick="main.view.handleImageClick(event, this, '${value.FILE}');"
@@ -119,12 +132,7 @@ function View()
     // UPPER CONTENT START
     if (SETTINGS.SHOWUPPER)
     {
-      let upperClass = 'griditem-containerupper';
-      if (entryIsImageType)
-      {
-        upperClass = 'griditem-containerupper-image';
-      }
-      entry += `<div class="${upperClass}" ${onclickImage}>`;
+      entry += `<div class="griditem-containerupper" ${onclickImage}>`;
 
       // TITLE
       if (SETTINGS.SHOWTITLE)
@@ -171,20 +179,12 @@ function View()
     // LOWER CONTENT START
     if (SETTINGS.SHOWLOWER)
     {
-      let lowerClass = 'griditem-containerlower';
-      if (entryIsImageType)
-      {
-        lowerClass = 'griditem-containerlower-image';
-      }
-      entry += `<div class="${lowerClass}" ${onclickImage}>`;
+      entry += `<div class="griditem-containerlower" ${onclickImage}>`;
 
       // AUTHOR
       if (SETTINGS.SHOWAUTH && this.isDefined(value.AUTH))
       {
-        for (var i = 0; i < value.AUTH.length; i++)
-        {
-          entry += `<div class="griditem-auth"><i class="fas fa-user textIcon"></i>${value.AUTH[i].to_properCase()}</div>`;
-        }
+        entry += `<div class="griditem-auth"><i class="fas fa-user textIcon"></i>${value.AUTH}</div>`;
       }
 
       // TAGS
@@ -274,7 +274,8 @@ function View()
     }
 
     // IMAGE - for image-type-entry
-    if (entryIsImageType
+    if (SETTINGS.SHOWIMAG 
+        && this.isType(value.TYPE, 'image')
         && this.isDefined(value.FILE)
         && this.isImage(value.FILE))
     {
@@ -313,19 +314,16 @@ function View()
     menuContent += `</div>`;
 
     // DONE
-    if (SETTINGS.SHOWDONE)
-    {
-      menuContent += `<div class="menu-itemgroup">`;
-      menuContent += `<a href='#done-true' class="menu-item">`;
-      menuContent += `<div class="menu-itemcount">${value.done}</div>`;
-      menuContent += `<i class="menu-itemicon fas fa-check"></i>`;
-      menuContent += `</a>`;
-      menuContent += `<a href='#done-false' class="menu-item">`;
-      menuContent += `<div class="menu-itemcount">${value.total - value.done}</div>`;
-      menuContent += `<i class="menu-itemicon fas fa-times"></i>`;
-      menuContent += `</a>`;
-      menuContent += `</div>`;
-    }
+   /* menuContent += `<div class="menu-itemgroup">`;
+    menuContent += `<a href='#done-true' class="menu-item">`;
+    menuContent += `<div class="menu-itemcount">${value.done}</div>`;
+    menuContent += `<i class="menu-itemicon fas fa-check"></i>`;
+    menuContent += `</a>`;
+    menuContent += `<a href='#done-false' class="menu-item">`;
+    menuContent += `<div class="menu-itemcount">${value.total - value.done}</div>`;
+    menuContent += `<i class="menu-itemicon fas fa-times"></i>`;
+    menuContent += `</a>`;
+    menuContent += `</div>`;*/
 
     menuContent += `<div class="menu-itemgroup">`;
     for (let ty = 0; ty < Math.min(value.types.length, SETTINGS.STATSNUMTYPE); ty++) 
@@ -358,7 +356,7 @@ function View()
     {
       menuContent += `<div class="menu-tagcontainer">`;
       menuContent += `<i class="menu-tagicon fas fa-tag"></i>`;
-      for (var t = 0; t < Math.min(value.tags.length, SETTINGS.STATSNUMTAGS); t++) 
+      for (var t = 0; t < Math.min(value.tags.length, SETTINGS.STATSNUMTAGS); t++)
       {
         menuContent += `<a class="menu-tag" href='#tag-${value.tags[t][0]}'>`;
         // menuContent += `<i class="fas fa-tag textIcon"></i>`;
