@@ -1,11 +1,9 @@
-
+var DATABASE = `
 LIGHTING FIRES, POETICS AND SENSATION
   DATE : 12018-10-25
   TYPE : article
   LINK : https://medium.com/@shinestrength/lighting-fires-poetics-and-sensation-991d083e15e9
   QOTE : "I think I know what it means to sit in the sunshine and enjoy it’s benefits. Sitting in the sunshine has a long history that you can feel directly by sitting in it. It’s self evident what it means to sit in the sunshine for too long, and it’s value is not vague nor elusive. It’s tangibility is never drawn into question as we feel it. "
-
-
 
 SECRET SCREEN
   DATE : 12018-10-25
@@ -666,3 +664,4 @@ MY CAT, NAPPING FOR HOURS
   DATE : 12018-10-25
   TYPE : video
   LINK : https://www.youtube.com/watch?v=E0k4gbCPs1E
+`
