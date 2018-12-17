@@ -1,5 +1,10 @@
 var DATABASE = `
 
+MOUTH PORTAL
+  DATE : 12018-12-17
+  FILE : mouthPortal.gif
+  TYPE : image
+         
 SNAPPER AND I, A1 PRINT
   DATE : 12018-10-25
   FILE : snpr2UP_print.jpg
@@ -66,7 +71,7 @@ WATER DROPS, SCREEN PHOTO
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/photo_waterDrops.jpg
 
-ZIPSQUID | Currently in development!
+ZIPSQUID | (Currently in development)
   DATE : 12018-10-25
   FILE : zipsquid.gif
   TYPE : game
