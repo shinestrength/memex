@@ -1,5 +1,29 @@
 var DATABASE = `
 
+FREAK THE SHEEPLAND
+  DATE : 12019-04-21
+  FILE : FreakSheep.png
+  TYPE : image
+  TAGS : textmode
+
+PATH TO THE BLACK LODGE
+  DATE : 12019-03-18
+  FILE : PathToBlackLodge_Cropped.png
+  TYPE : image
+  TAGS : textmode
+
+SELF PUBLISHING
+  DATE : 12019-03-15
+  FILE : AT4.png
+  TYPE : image
+  TAGS : textmode
+
+HOME COOKING
+  DATE : 12019-03-15
+  FILE : AT3.png
+  TYPE : image
+  TAGS : textmode
+
 SUMMER SHOWER 
   DATE : 12018-12-17
   FILE : summerShower.png
