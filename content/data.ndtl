@@ -1,6 +1,6 @@
 var DATABASE = `
 
-PRINCE *S*
+PRINCE S
 
   DATE : 12020-09-18
   FILE : overwhelmOveremote2A_CC2_small.jpg
@@ -20,6 +20,7 @@ THE PAVILLION OF FEATHERS
   TYPE : image
   LINK : https://vrchat.com/home/launch?worldId=wrld_ab8b5d55-de94-4ecf-ae16-e6d4ad3a8c87
   QOTE : VRChat Space for Art.
+  TAGS : VR
 
 BIG HANDS
   DATE : 12020-09-18
@@ -27,6 +28,7 @@ BIG HANDS
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/serobighands3_small.jpg
   QOTE : VRChat Live Drawing
+  TAGS : VR
 
 ROOFHEAD
   DATE : 12020-09-18
