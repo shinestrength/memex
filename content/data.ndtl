@@ -1,15 +1,13 @@
 var DATABASE = `
 
-INSTA
-  DATE : 12020-09-18
-  FILE : insta.png
-  LINK : http://www.instagram.com/philllllljames
-  WIDE : false
+
+
 
 MY FLOWERY FACE, BEING OVERWHELMED BY EVERYTHING
   DATE : 12020-09-18
   FILE : owf.jpg
   TYPE : image
+  WIDE : true
   TAGS : rebelle
  
 PRINCE S
@@ -39,6 +37,12 @@ TWISTED BODY
   FILE : bbody_handcorrect_lrg.jpg
   TYPE : image
   TAGS : blacknwhite, rebelle
+
+INSTA
+  DATE : 12020-09-18
+  FILE : insta.png
+  LINK : http://www.instagram.com/philllllljames
+  TYPE : link
 
 SEEDER
   DATE : 12020-09-18
