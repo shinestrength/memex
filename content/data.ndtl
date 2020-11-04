@@ -2,7 +2,7 @@ var DATABASE = `
 
 INSTA
   DATE : 12020-09-18
-  FILE : insta.JPG
+  FILE : insta.png
   TYPE : image
   LINK : http://www.instagram.com/philllllljames
 
@@ -10,14 +10,12 @@ MY FLOWERY FACE, BEING OVERWHELMED BY EVERYTHING
   DATE : 12020-09-18
   FILE : owf.jpg
   TYPE : image
-  WIDE : true
   TAGS : rebelle
  
 PRINCE S
   DATE : 12020-09-18
   FILE : overwhelmOveremote2A_CC2_small.jpg
   TYPE : image
-  WIDE : true
   TAGS : rebelle
   QOTE : Image made in collaboration with https://www.instagram.com/Muffin.OS/
 
@@ -25,7 +23,6 @@ KE/BO
   DATE : 12020-09-18
   FILE : kebo.jpg
   TYPE : image
-  WIDE : true
   TAGS : rebelle
   QOTE : Fan art of Original characters by https://www.instagram.com/Muffin.OS/
 
