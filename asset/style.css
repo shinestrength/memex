@@ -58,6 +58,7 @@ html {
 body {
 	padding: 0em;
 	margin: 0; 
+
 }
 ::selection {
   background: var(--color-bg);
@@ -137,6 +138,7 @@ body {
 	z-index: 100;
 	left: 0px;
 	top: 0px;
+
   /*overflow-y: scroll;*/                 /*allow menu to scroll on small screens*/
 }
 .menu:hover {
@@ -160,6 +162,7 @@ body {
 	margin: 0px auto;
 	width: 100%;
 	float: left;
+  display: none; /* hide types */
 }
 .menu-item:hover {
   color: var(--color-menuascent);
@@ -204,11 +207,13 @@ body {
   width: 100%;
   float: left;
   clear: left;
+  ;
 }
 .menu-tagcount {
 	padding-right: var(--size-menu-tag-sepv);
 	text-align: right;
 	float: left;
+  display: none;
 }
 .menu-taglabel {
 	text-align: left;

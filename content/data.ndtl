@@ -1,11 +1,25 @@
 var DATABASE = `
 
+INSTAGRAM
+  DATE : 12020-09-18
+  FILE : insta2.jpg
+  LINK : http://www.instagram.com/philllllljames
+  TYPE : link
+  TAGS : 𝐒𝐎𝐂𝐈𝐀𝐋𝐒
+
+ABOUT / CONTACT
+  DATE : 12020-09-18
+  QOTE : Business: please contact 𝘴𝘵𝘶𝘥𝘪𝘰.𝘴𝘩𝘪𝘯𝘦𝘴𝘵𝘳𝘦𝘯𝘨𝘵𝘩@𝘨𝘮𝘢𝘪𝘭.𝘤𝘰𝘮 for all enquiries.
+  NOTE : Sero is a digital artist with a specific interest in creating dreamlike, surreal worlds and characters. <br><br><br> They utilise a multi disciplinary approach, and work across mediums including digital painting, illustration, animation, videogames, and VR.<br><br><br>
+
+  TAGS : ALL, 𝘈𝘉𝘖𝘜𝘛/𝘊𝘖𝘕𝘛𝘈𝘊𝘛
+
 MY FLOWERY FACE, BEING OVERWHELMED BY EVERYTHING
   DATE : 12020-09-18
   FILE : owf.jpg
   TYPE : image
   WIDE : true
-  TAGS : rebelle, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, illustration
+  TAGS : ALL, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊
  
 PRINCE S
   DATE : 12020-09-18
@@ -14,6 +28,7 @@ PRINCE S
   TAGS : rebelle, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, illustration
   WIDE : true
   QOTE : Image made in collaboration with https://www.instagram.com/Muffin.OS/
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 KE/BO
   DATE : 12020-09-18
@@ -22,44 +37,41 @@ KE/BO
   TAGS : rebelle
   WIDE : true
   QOTE : Fan art of Original characters by https://www.instagram.com/Muffin.OS/
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 EGHGG
   DATE : 12020-09-18
   FILE : eghgg_actual.jpg
   TYPE : image
-  TAGS : blacknwhite, rebelle, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, illustration
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 TWISTED BODY
   DATE : 12020-09-18
   FILE : bbody_handcorrect_lrg.jpg
   TYPE : image
-  TAGS : blacknwhite, rebelle, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, illustration
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
-🅸🅽🆂🆃🅰🅶🆁🅰🅼
-  DATE : 12020-09-18
-  FILE : insta2.jpg
-  LINK : http://www.instagram.com/philllllljames
-  TYPE : link
+
 
 SEEDER
   DATE : 12020-09-18
   FILE : seeder.jpg
   TYPE : image
-  TAGS : blacknwhite, rebelle, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 RAINMAN
   DATE : 12020-09-18
   FILE : rainman.jpg
   TYPE : image
   WIDE : true
-  TAGS : rebelle,  𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 ME, AT THE CLUB, CIRCA 2000
   DATE : 12020-09-18
   FILE : MeAtClubCirca2000_PAINTOVER2.jpg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/MeAtClubCirca2000_PAINTOVER2.jpg
-  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
   
 THE PAVILLION OF FEATHERS
   DATE : 12020-09-18
@@ -67,7 +79,7 @@ THE PAVILLION OF FEATHERS
   TYPE : image
   LINK : https://vrchat.com/home/launch?worldId=wrld_ab8b5d55-de94-4ecf-ae16-e6d4ad3a8c87
   QOTE : VRChat Space for Art.
-  TAGS : VR, 𝐈𝐍𝐓𝐄𝐑𝐀𝐂𝐓𝐈𝐕𝐄, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊
+  TAGS : 𝐕𝐑,𝐈𝐍𝐓𝐄𝐑𝐀𝐂𝐓𝐈𝐕𝐄, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 BIG HANDS
   DATE : 12020-09-18
@@ -75,7 +87,7 @@ BIG HANDS
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/serobighands3_small.jpg
   QOTE : VRChat Live Drawing
-  TAGS : VR, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊
+  TAGS :  𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 ROOFHEAD
   DATE : 12020-09-18
@@ -83,71 +95,63 @@ ROOFHEAD
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/ROOFHEAD.jpg
   QOTE : VRChat Live Drawing
-  TAGS : VR, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊
+  TAGS :  𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 HOLY FACE
   DATE : 12020-09-18
   FILE : zs_holyFace.png
   TYPE : image
-  TAGS : 𝐈𝐍𝐓𝐄𝐑𝐀𝐂𝐓𝐈𝐕𝐄, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 HIROSHIMA
   DATE : 12020-09-18
   FILE : hiro3_CC.jpg
   TYPE : image
   QOTE : Made using https://glyphdrawing.club/
-  TAGS : textmode, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊
-
-
-FREAK THE SHEEPLAND
-  DATE : 12019-04-21
-  FILE : FreakSheep.png
-  TYPE : image
-  TAGS : textmode, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 PATH TO THE BLACK LODGE
   DATE : 12019-03-18
   FILE : PathToBlackLodge_Cropped_CC.png
   TYPE : image
-  TAGS : textmode, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
-SELF PUBLISHING
-  DATE : 12019-03-15
-  FILE : AT4.png
-  TYPE : image
-  TAGS : textmode, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊
 
-HOME COOKING
-  DATE : 12019-03-15
-  FILE : AT3.png
-  TYPE : image
-  TAGS : textmode, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊
 
 SUMMER SHOWER 
   DATE : 12018-12-17
   FILE : summerShower.png
   TYPE : image
-  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
   
 MOUTH PORTAL
   DATE : 12018-12-17
   FILE : mouthPortal.gif
-  TYPE : image TAGS : zipsquid, 𝐈𝐍𝐓𝐄𝐑𝐀𝐂𝐓𝐈𝐕𝐄, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊
- 
-         
+  TYPE : image 
+  TAGS : 𝐈𝐍𝐓𝐄𝐑𝐀𝐂𝐓𝐈𝐕𝐄, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
+
+ARCADE REVIEW NO.1 COVER
+  DATE : 12018-10-25
+  FILE : arcadeReviewCover_magshow.jpg
+  TYPE : image
+  WIDE : true
+  LINK : http://www.shinestrength.xyz/content/media/arcadeReviewCover_magshow.jpg
+  TAGS : 𝐈𝐋𝐋𝐔𝐒𝐓𝐑𝐀𝐓𝐈𝐎𝐍, ALL
+
 SNAPPER AND I, A1 PRINT
   DATE : 12018-10-25
   FILE : snpr2UP_print.jpg
   TYPE : image
   WIDE : true
-  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, 𝐈𝐋𝐋𝐔𝐒𝐓𝐑𝐀𝐓𝐈𝐎𝐍, ALL
 
 LIGHTING FIRES, POETICS AND SENSATION
   DATE : 12018-10-25
   TYPE : article
   LINK : https://medium.com/@shinestrength/lighting-fires-poetics-and-sensation-991d083e15e9
   QOTE : "I think I know what it means to sit in the sunshine and enjoy it’s benefits. Sitting in the sunshine has a long history that you can feel directly by sitting in it. It’s self evident what it means to sit in the sunshine for too long, and it’s value is not vague nor elusive. It’s tangibility is never drawn into question as we feel it. "
-  TAGS : Writing
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
+
 
 SECRET SCREEN
   DATE : 12018-10-25
@@ -155,7 +159,7 @@ SECRET SCREEN
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/secretScreen.jpg
   WIDE : true
-  TAGS : 𝐈𝐍𝐓𝐄𝐑𝐀𝐂𝐓𝐈𝐕𝐄, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
   
   
 GOLDEN KNIGHT
@@ -164,20 +168,21 @@ GOLDEN KNIGHT
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/goldenKnight.jpg
   QOTE : (29/10/18) Discovered this one today whilst going through an old harddrive.
-  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 MANTLE OUT OF SELF
   DATE : 12018-10-25
   FILE : mantleOutOfSelf.jpg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/mantleOutOfSelf.jpg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
   
 MEMORY OF A DAY
   DATE : 12018-10-25
   FILE : memoryOfThatDay.jpg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/memoryOfThatDay.jpg
-  
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 MEGASNEEZE
   DATE : 12018-10-25
@@ -186,18 +191,21 @@ MEGASNEEZE
   LINK : http://www.shinestrength.xyz/content/media/megaSneeze.jpg
   WIDE : true
   QOTE : At the moment I'm doing this glyph drawing thing to make drawing Zipsquid levels more fun.
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 LEVEL DESIGN WIP, ZIPSQUID
   DATE : 12018-10-25
   FILE : photo_zipSquidLevelDesign1.jpg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/photo_zipSquidLevelDesign1.jpg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, 𝐈𝐍𝐓𝐄𝐑𝐀𝐂𝐓𝐈𝐕𝐄, ALL
   
 SUN BOX, SCREEN PHOTO
   DATE : 12018-10-25
   FILE : photo_sunBox.jpg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/photo_sunBox.jpg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
   
 WATER DROPS, SCREEN PHOTO
   DATE : 12018-10-25
@@ -205,13 +213,14 @@ WATER DROPS, SCREEN PHOTO
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/photo_waterDrops.jpg
 
-ZIPSQUID | (Currently in development)
+ZIPSQUID Prototype
   DATE : 12018-10-25
   FILE : zipsquid.gif
   TYPE : game
   LINK : https://www.youtube.com/watch?v=s4rq9dUIX6A&index=2&list=PL8D4kjV0FScuiydcGDpU5hj-2O-_hRXjq
   WIDE : true
-  TAGS : zipsquid
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, 𝐈𝐍𝐓𝐄𝐑𝐀𝐂𝐓𝐈𝐕𝐄, ALL
+  
 
   
 MEMORY HAND, SCREEN PHOTO
@@ -220,6 +229,7 @@ MEMORY HAND, SCREEN PHOTO
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/photo_memoryHand.jpg
   WIDE : true
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 UCLA DEMO OF ZIPSQUID
   DATE : 12018-10-25
@@ -227,7 +237,8 @@ UCLA DEMO OF ZIPSQUID
   TYPE : image
   WIDE : true
   NOTE : Second public demo of Zipsquid. Happy to be amongst good company here.
-  TAGS : zipsquid
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, 𝐈𝐍𝐓𝐄𝐑𝐀𝐂𝐓𝐈𝐕𝐄, ALL
+ 
 
 MB
   DATE : 12018-10-25
@@ -235,6 +246,7 @@ MB
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/motherBoard.jpg
   WIDE : true
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 LIEUTENANT BUTTERFLY: EXPLORING VIDEOGAMES THROUGH ORDINARY PSYCHEDELIC PLAY (THESIS)
   DATE : 12018-10-25
@@ -243,49 +255,54 @@ LIEUTENANT BUTTERFLY: EXPLORING VIDEOGAMES THROUGH ORDINARY PSYCHEDELIC PLAY (TH
   WIDE : true
   QOTE : Documenting my sketch based process from a psychedelic, phenomenological perspective. 
   NOTE : ABSTRACT: Employing a psychedelic method, a sketched based process has been adopted for developing software artworks that are informed by traditional art practices, videogames and notions of play..
-  TAGS : phenomenology
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 WATCH WITCH
   DATE : 12018-10-25
   FILE : watchWitch.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/watchWitch.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 THE YELLOW PIG
   FILE : pig.gif
   TYPE : image
-  TAGS : zipsquid
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, 𝐈𝐍𝐓𝐄𝐑𝐀𝐂𝐓𝐈𝐕𝐄, ALL
 
 ARMOUR
   DATE : 12018-10-25
   FILE : armour.jpg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/armour.jpg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 BLUE OCEAN STRATEGY
   DATE : 12018-10-25
   FILE : blueOceanStrategy.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/blueOceanStrategy.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 THE SHAPE OF THE BLACK SUN
   DATE : 12018-10-25
   FILE : theShapeOfTheBlackSun.png
   TYPE : image
   WIDE : true
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 BOOM
   DATE : 12018-10-25
   FILE : boom.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/boom.jpeg
-  TAGS : blacknwhite
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL 
 
 BUBBLE DOOR
   DATE : 12018-10-25
   FILE : bubbleDoor.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/bubbleDoor.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 
 CHROMACON
@@ -293,66 +310,76 @@ CHROMACON
   FILE : chromaPaper.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/chromaPaper.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 CLUTCH
   DATE : 12018-10-25
   FILE : clutch.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/clutch.jpeg
-  TAGS : blacknwhite
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 DANCE
   DATE : 12018-10-25
   FILE : dance.jpg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/dance.jpg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 DEVI
   DATE : 12018-10-25
   FILE : devi.jpg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/devi.jpg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 DIVE BOMB
   DATE : 12018-10-25
   FILE : diveBomb.jpg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/diveBomb.jpg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 DUSK FIGURE
   DATE : 12018-10-25
   FILE : duskFigure.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/duskFigure.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 ENTITY
   DATE : 12018-10-25
   FILE : entity.png
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/entity.png
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 FRAGMENTS
   DATE : 12018-10-25
   FILE : fragments.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/fragments.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 SPECIAL AIR GAP
   DATE : 12018-10-25
   FILE : gap.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/gap.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 LET'S PLAY GOMOLA SPEED
   FILE : gomolaSpeed.jpeg
   TYPE : video
   LINK : https://www.youtube.com/watch?v=JD5G5v4plC4&list=PL8D4kjV0FSct-57gjnJmpOSUSdXQZDRLb
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 GO THROUGH THE GATE
   DATE : 12018-10-25
   FILE : goThroughTheDoor.jpg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/goThroughTheDoor.jpg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 GRAIN, 2013
   DATE : 12018-10-25
@@ -361,70 +388,77 @@ GRAIN, 2013
   LINK : http://www.shinestrength.xyz/content/media/grain2013.jpeg
   WIDE : true
   QOTE : This is a large one. It's rolled up in my storage atm.
-  TAGS : blacknwhite
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 HEXELS DRAWOVER
   DATE : 12018-10-25
   FILE : hexelsDrawOver.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/hexelsDrawOver.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 INCINERATOR
   DATE : 12018-10-25
   FILE : incinerator.jpg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/incinerator.jpg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 ISLAND HEAD
   DATE : 12018-10-25
   FILE : islandHead.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/islandHead.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 LAMB
   DATE : 12018-10-25
   FILE : lamb.jpg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/lamb.jpg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 'L B 129'
   DATE : 12018-10-25
   FILE : LB129.jpeg
   TYPE : game
-  NOTE : Masters Project for the GearVR. More documentation about this work in the thesis.
+  NOTE : Masters Project for the GearVR.
+  TAGS : 𝐈𝐍𝐓𝐄𝐑𝐀𝐂𝐓𝐈𝐕𝐄, 𝐕𝐑, ALL
 
 LIEUTENANT BUTTERFLY
   DATE : 12018-10-25
   FILE : lieutenantPrototype.png
   TYPE : game
   LINK : https://philllllljames.itch.io/prototype-lieutenant-butterfly
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, 𝐈𝐍𝐓𝐄𝐑𝐀𝐂𝐓𝐈𝐕𝐄, ALL
 
 LION CAT LION CAT
   DATE : 12018-10-25
   FILE : lionCatlionCat.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/lionCatlionCat.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 STUDIO PHIBLI: TOTORO
   DATE : 12018-10-25
   FILE : studioPhibli_totoro.jpg
   TYPE : image
   NOTE : I decided to insert myself into some Ghibli films.
-  TAGS : studiophibli
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 STUDIO PHIBLI: MONONOKE
   DATE : 12018-10-25
   FILE : studioPhibli_mononoke.jpg
   TYPE : image
   NOTE : I decided to insert myself into some Ghibli films.
-  TAGS : studiophibli
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 STUDIO PHIBLI: PORCO ROSSO
   DATE : 12018-10-25
   FILE : studioPhibli_porco.jpg
   TYPE : image
   NOTE : I decided to insert myself into some Ghibli films.
-  TAGS : studiophibli
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 STUDIO PHIBLI: YUBABA TIMELAPSE
   DATE : 12018-10-25
@@ -433,7 +467,7 @@ STUDIO PHIBLI: YUBABA TIMELAPSE
   NOTE : This is a timelapse of my Yubaba assimilation.
   WIDE : true
   LINK : https://www.youtube.com/watch?v=NVQSKOW-Xcg
-  TAGS : studiophibli
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 LIQUID SAGE
   DATE : 12018-10-25
@@ -441,47 +475,56 @@ LIQUID SAGE
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/liquifiedSage.jpeg
 
+
 TRAFFIC JAM
   DATE : 12018-10-25
   FILE : trafficJam.jpg
   TYPE : image
+  WIDE : true
   NOTE : Concept work for Cirkus.co.nz
+  TAGS : 𝐈𝐋𝐋𝐔𝐒𝐓𝐑𝐀𝐓𝐈𝐎𝐍, ALL
 
 CUTOUT OBJECT
   DATE : 12018-10-25
   FILE : cutout.jpg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/cutout.jpg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 MANDALA
   DATE : 12018-10-25
   FILE : mandala.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/mandala.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 HEARTMONSTERRRRRR
   DATE : 12018-10-25
   FILE : heartMonsterrr.jpg
   TYPE : game
   LINK : https://philllllljames.itch.io/heartmonsterrrrrr
+  TAGS : 𝐈𝐍𝐓𝐄𝐑𝐀𝐂𝐓𝐈𝐕𝐄, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 BLUE PAINTING, MASTERS 2014
   DATE : 12018-10-25
   FILE : mastersPaintingBlue.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/mastersPaintingBlue.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 MEKA
   DATE : 12018-10-25
   FILE : meka.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/meka.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 OUT OF THE TUNNELS, ICE.
   DATE : 12018-10-25
   FILE : outOfTheTunnelsIce.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/outOfTheTunnelsIce.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 MR JAMES' NIGHT FLIGHT
   DATE : 12018-10-25
@@ -489,102 +532,114 @@ MR JAMES' NIGHT FLIGHT
   TYPE : game
   LINK : https://philllllljames.itch.io/mr-james-night-flight
   NOTE : Game Jam 
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, 𝐈𝐍𝐓𝐄𝐑𝐀𝐂𝐓𝐈𝐕𝐄, ALL
 
-OUT OF THE TUNNELS, ICE.
-  DATE : 12018-10-25
-  FILE : outOfTheTunnelsIce.jpeg
-  TYPE : image
-  LINK : http://www.shinestrength.xyz/content/media/outOfTheTunnelsIce.jpeg
 
 PAIR, PAIR
   DATE : 12018-10-25
   FILE : pairPair.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/pairPair.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊,  ALL
 
 PILLARS
   DATE : 12018-10-25
   FILE : pillars.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/pillars.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊,  ALL
 
 PLANET
   DATE : 12018-10-25
   FILE : planet.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/planet.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊,  ALL
 
 PLASMA BUBBLE, SHAKE
   DATE : 12018-10-25
   FILE : plasmaBubbleShake.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/plasmaBubbleShake.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊,  ALL
 
 POSTS
   DATE : 12018-10-25
   FILE : posts.jpg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/posts.jpg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊,  ALL
 
 PRINTS, 2014
   DATE : 12018-10-25
   FILE : prints.jpg
   TYPE : image
+  WIDE : true
   LINK : http://www.shinestrength.xyz/content/media/prints.jpg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, 𝐈𝐋𝐋𝐔𝐒𝐓𝐑𝐀𝐓𝐈𝐎𝐍
 
 RED, BLUE, AND ICE.
   DATE : 12018-10-25
   FILE : redBlueAndIce.jpg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/redBlueAndIce.jpg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊,  ALL
 
 RED HILL
   DATE : 12018-10-25
   FILE : redHill.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/redHill.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊,  ALL
 
 RED PEAK
   DATE : 12018-10-25
   FILE : redPeak.png
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/redPeak.png
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 RED ROOM
   DATE : 12018-10-25
   FILE : redRoom.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/redRoom.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 RIBS
   DATE : 12018-10-25
   FILE : ribs.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/ribs.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 ROLL INTO TWO
   DATE : 12018-10-25
   FILE : rollIntoTwo.png
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/rollIntoTwo.png
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 S'ALL OK, NIGHT OWL
   DATE : 12018-10-25
   FILE : sallOkNightOwl.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/sallOkNightOwl.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 SCREENSAVER: ISLANDS
   DATE : 12018-10-25
   FILE : screenSaverSmall.jpg
   TYPE : game
   LINK : https://shinestrength.neocities.org/
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, 𝐈𝐍𝐓𝐄𝐑𝐀𝐂𝐓𝐈𝐕𝐄, ALL
 
 LET'S PLAY - KIWIJAM 17
   DATE : 12018-10-25
   TYPE : video
   FILE : kiwijam17.jpg
   LINK : https://www.youtube.com/watch?v=ODayywbW-AY
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 BEYOND KEEM'S SHORE: 1
   DATE : 12017-09-16
@@ -592,172 +647,177 @@ BEYOND KEEM'S SHORE: 1
   LINK : https://www.youtube.com/watch?v=uvz68PDI5vc
   FILE : bks.jpg
   NOTE : A Buzzing, whining, echoing sort of state.
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 SCEENERY
   DATE : 12018-10-25
   FILE : seenery.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/seenery.jpeg
-  TAGS : blacknwhite
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 SELECTION PORTAL
   DATE : 12018-10-25
   FILE : selectionPortal.gif
   TYPE : image
-  TAGS : blacknwhite
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
   
 SELF PORTRAIT 2014, NO. 2
   DATE : 12018-10-25
   FILE : selfPortrait2014_2.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/selfPortrait2014_2.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 SELF PORTRAIT 2014, NO. 1
   DATE : 12018-10-25
   FILE : selfPortrait2014_1.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/selfPortrait2014_1.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 CHILL AFTERNOON DRAWING FEATURING MY ARM.
   DATE : 12018-10-25
   TYPE : video
   LINK : https://www.youtube.com/watch?v=tcLvoM4nDQ4
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 SHAMAN
   DATE : 12018-10-25
   FILE : shaman.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/shaman.jpeg
-  TAGS : blacknwhite
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 SPACE, MAN
   DATE : 12018-10-25
   FILE : spaceMan.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/spaceMan.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 SPACE, SPACE, SPACE!
   DATE : 12018-10-25
   FILE : spaceSpaceSpace.jpg
   TYPE : game
   LINK : https://philllllljames.itch.io/space-space-space
-  TAGS : blacknwhite
+  TAGS : 𝐈𝐍𝐓𝐄𝐑𝐀𝐂𝐓𝐈𝐕𝐄, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 SUBSET
   DATE : 12018-10-25
   FILE : subset.jpg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/subset.jpg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 TABLE, A COLLECTIVE PLAYSPACE
   DATE : 12018-10-25
   FILE : tableCollectivePlayspace.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/tableCollectivePlayspace.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 THRESHING NEST, AUTOMATIC DRAWING
   DATE : 12018-10-25
   FILE : threshingNest1.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/threshingNest1.jpeg
-  TAGS : blacknwhite
+  TAGS : 𝐂𝐎𝐌𝐈𝐂𝐒, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 TRAIN VIEW
   DATE : 12018-10-25
   FILE : trainView.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/trainView.jpeg
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 THE THRESHING NEST (WEBCOMIC)
   DATE : 12018-10-25
   FILE : theThreshingNest.jpg
   TYPE : image
   LINK : http://the-threshing-nest.tumblr.com/
-  TAGS : blacknwhite
+  TAGS : 𝐂𝐎𝐌𝐈𝐂𝐒, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 THE THRESHING NEST (WEBCOMIC)
   DATE : 12018-10-25
   FILE : theThreshingNest.jpg
   TYPE : image
   LINK : http://the-threshing-nest.tumblr.com/
-  TAGS : blacknwhite
+  TAGS : 𝐂𝐎𝐌𝐈𝐂𝐒, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 THE THRESHING NEST (WEBCOMIC)
   DATE : 12018-10-25
   FILE : theThreshingNest.jpg
   TYPE : image
   LINK : http://the-threshing-nest.tumblr.com/
-  TAGS : blacknwhite
+  TAGS : 𝐂𝐎𝐌𝐈𝐂𝐒, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 THE THRESHING NEST (WEBCOMIC) PG3
   DATE : 12018-10-25
   FILE : ttn3.jpg
   TYPE : image
   LINK : http://the-threshing-nest.tumblr.com/
-  TAGS : blacknwhite
+  TAGS : 𝐂𝐎𝐌𝐈𝐂𝐒, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 THE THRESHING NEST (WEBCOMIC) PG13A
   DATE : 12018-10-25
   FILE : ttn13A.jpg
   TYPE : image
   LINK : http://the-threshing-nest.tumblr.com/
-  TAGS : blacknwhite
+  TAGS : 𝐂𝐎𝐌𝐈𝐂𝐒, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊
 
 THE THRESHING NEST (WEBCOMIC) PG24
   DATE : 12018-10-25
   FILE : ttn24.jpg
   TYPE : image
   LINK : http://the-threshing-nest.tumblr.com/
-  TAGS : blacknwhite
+  TAGS : 𝐂𝐎𝐌𝐈𝐂𝐒, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊
 
 THE THRESHING NEST (WEBCOMIC) PG25
   DATE : 12018-10-25
   FILE : ttn25.jpg
   TYPE : image
   LINK : http://the-threshing-nest.tumblr.com/
-  TAGS : blacknwhite
+  TAGS : 𝐂𝐎𝐌𝐈𝐂𝐒, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 THE THRESHING NEST (WEBCOMIC) PG26
   DATE : 12018-10-25
   FILE : ttn26.jpg
   TYPE : image
   LINK : http://the-threshing-nest.tumblr.com/
-  TAGS : blacknwhite
+  TAGS : 𝐂𝐎𝐌𝐈𝐂𝐒, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 THE THRESHING NEST (WEBCOMIC) PG28
   DATE : 12018-10-25
   FILE : ttn28.jpg
   TYPE : image
   LINK : http://the-threshing-nest.tumblr.com/
-  TAGS : blacknwhite
+  TAGS : 𝐂𝐎𝐌𝐈𝐂𝐒, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
+  
 
 THE THRESHING NEST (WEBCOMIC) PG31
   DATE : 12018-10-25
   FILE : ttn31.jpg
   TYPE : image
   LINK : http://the-threshing-nest.tumblr.com/
-  TAGS : blacknwhite
+  TAGS : 𝐂𝐎𝐌𝐈𝐂𝐒, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 THE THRESHING NEST (WEBCOMIC) PG32
   DATE : 12018-10-25
   FILE : ttn32.jpg
   TYPE : image
   LINK : http://the-threshing-nest.tumblr.com/
-  TAGS : blacknwhite
+  TAGS : 𝐂𝐎𝐌𝐈𝐂𝐒, 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
+  
 
-ARCADE REVIEW NO.1 COVER
-  DATE : 12018-10-25
-  FILE : arcadeReviewCover_magshow.jpg
-  TYPE : image
-  WIDE : true
-  LINK : http://www.shinestrength.xyz/content/media/arcadeReviewCover_magshow.jpg
-  TAGS : Illustration
+
 
 WHO
   DATE : 12018-10-25
   FILE : who.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/who.jpeg
+  TAGS: 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 
 WINTER GAP
@@ -765,55 +825,67 @@ WINTER GAP
   FILE : winterGap.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/winterGap.jpeg
+  TAGS: 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 WINTER LIGHT HOUSE
   DATE : 12018-10-25
   FILE : winterLightHouse.jpg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/winterLightHouse.jpg
+  TAGS: 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 FIREFALL
   DATE : 12018-10-25
   FILE : fireFall.png
   TYPE : image
   DONE : true
+  TAGS: 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 SNAPPER AND I
   DATE : 12018-10-25
   FILE : snapperAndI.jpg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/snapperAndI.jpg
+  TAGS: 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
   
 THE CASTLE THE BEACH
   DATE : 12018-10-25
   FILE : theCastleTheBeach.jpeg
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/theCastleTheBeach.jpeg
+  TAGS: 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 MIST, CURLED BACK
   DATE : 12018-10-25
   FILE : mist.png
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/mist.png
+  TAGS: 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
   
 BUB AND BOB
   TYPE : music
   LINK : https://soundcloud.com/philllllljames/bub-and-bob-variation-1
+  TAGS: 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 A LOCAL CYBERDEMON
   DATE : 12018-10-25
   FILE : aLocalCyberdemon.png
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/aLocalCyberdemon.png
+  TAGS: 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 BUSH PIG ASCENDS INTO THE COSMOS
   DATE : 12018-10-25
   FILE : bushPigAscendsIntoTheCosmos.png
   TYPE : image
   LINK : http://www.shinestrength.xyz/content/media/bushPigAscendsIntoTheCosmos.png
+  TAGS: 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 MY CAT, NAPPING FOR HOURS
   DATE : 12018-10-25
   TYPE : video
   LINK : https://www.youtube.com/watch?v=E0k4gbCPs1E
+  TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 `
+
+

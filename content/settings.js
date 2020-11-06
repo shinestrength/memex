@@ -13,7 +13,7 @@ const SETTINGS =
 	SHOWTYPE: true,
 	SHOWLINK: true,
 	SHOWLOWER: true,
-	SHOWTAGS: true,
+	SHOWTAGS: false,
 	SHOWPROJ: true,
 	SHOWNOTE: true,
 	SHOWQOTE: true,
