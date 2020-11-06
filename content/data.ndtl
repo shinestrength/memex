@@ -1,12 +1,11 @@
 var DATABASE = `
 
-
 MY FLOWERY FACE, BEING OVERWHELMED BY EVERYTHING
   DATE : 12020-09-18
   FILE : owf.jpg
   TYPE : image
   WIDE : true
-  TAGS : rebelle
+  TAGS : rebelle, _personal Work
  
 PRINCE S
   DATE : 12020-09-18
