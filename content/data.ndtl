@@ -1,10 +1,17 @@
 var DATABASE = `
 
+INSTAGRAM
+  DATE : 12020-09-18
+  FILE : insta2.jpg
+  LINK : http://www.instagram.com/philllllljames
+  TYPE : link
+  TAGS : 𝐒𝐎𝐂𝐈𝐀𝐋𝐒
 
 ABOUT / CONTACT
   DATE : 12020-09-18
   QOTE : Business: please contact 𝘴𝘵𝘶𝘥𝘪𝘰.𝘴𝘩𝘪𝘯𝘦𝘴𝘵𝘳𝘦𝘯𝘨𝘵𝘩@𝘨𝘮𝘢𝘪𝘭.𝘤𝘰𝘮 for all enquiries.
   NOTE : Sero is a digital artist with a specific interest in creating dreamlike, surreal worlds and characters. <br><br><br> They utilise a multi disciplinary approach, and work across mediums including digital painting, illustration, animation, videogames, and VR.<br><br><br>
+
 
   TAGS : ALL, 𝘈𝘉𝘖𝘜𝘛/𝘊𝘖𝘕𝘛𝘈𝘊𝘛
 
@@ -67,9 +74,9 @@ ME, AT THE CLUB, CIRCA 2000
   LINK : http://www.shinestrength.xyz/content/media/MeAtClubCirca2000_PAINTOVER2.jpg
   TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
   
-THE PAVILLION OF FEATHERS
+THE PAVILION OF FEATHERS
   DATE : 12020-09-18
-  FILE : pav_open_insta_noOpenMark.jpg
+  FILE : pav_open_insta_wide.jpg
   TYPE : image
   LINK : https://vrchat.com/home/launch?worldId=wrld_ab8b5d55-de94-4ecf-ae16-e6d4ad3a8c87
   QOTE : VRChat Space for Art.
@@ -111,12 +118,6 @@ PATH TO THE BLACK LODGE
   TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
 
-INSTAGRAM
-  DATE : 12020-09-18
-  FILE : insta2.jpg
-  LINK : http://www.instagram.com/philllllljames
-  TYPE : link
-  TAGS : 𝐒𝐎𝐂𝐈𝐀𝐋𝐒
 
 SUMMER SHOWER 
   DATE : 12018-12-17
