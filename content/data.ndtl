@@ -1,11 +1,5 @@
 var DATABASE = `
 
-INSTAGRAM
-  DATE : 12020-09-18
-  FILE : insta2.jpg
-  LINK : http://www.instagram.com/philllllljames
-  TYPE : link
-  TAGS : 𝐒𝐎𝐂𝐈𝐀𝐋𝐒
 
 ABOUT / CONTACT
   DATE : 12020-09-18
@@ -124,7 +118,7 @@ SUMMER SHOWER
   TYPE : image
   TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
   
-MOUTH PORTAL
+MOUTH PORTAL, 2D ASSET
   DATE : 12018-12-17
   FILE : mouthPortal.gif
   TYPE : image 
@@ -264,7 +258,7 @@ WATCH WITCH
   LINK : http://www.shinestrength.xyz/content/media/watchWitch.jpeg
   TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
 
-THE YELLOW PIG
+THE YELLOW PIG (2D ASSET)
   FILE : pig.gif
   TYPE : image
   TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, 𝐈𝐍𝐓𝐄𝐑𝐀𝐂𝐓𝐈𝐕𝐄, ALL
@@ -886,6 +880,14 @@ MY CAT, NAPPING FOR HOURS
   TYPE : video
   LINK : https://www.youtube.com/watch?v=E0k4gbCPs1E
   TAGS : 𝐏𝐄𝐑𝐒𝐎𝐍𝐀𝐋 𝐖𝐎𝐑𝐊, ALL
+
+INSTAGRAM
+  DATE : 12020-09-18
+  FILE : insta2.jpg
+  LINK : http://www.instagram.com/philllllljames
+  TYPE : link
+  TAGS : 𝐒𝐎𝐂𝐈𝐀𝐋𝐒
+
 `
 
 
