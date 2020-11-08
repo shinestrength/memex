@@ -1,6 +1,6 @@
 'use strict';
 
-function Theme(default_theme = {background: "#3800ff", f_high: "#fff", f_med: "#777", f_low: "#444", f_inv: "#fff", b_high: "#000", b_med: "#aaa", b_low: "#000", b_inv: "#000"})
+function Theme(default_theme = {background: "#222", f_high: "#fff", f_med: "#777", f_low: "#444", f_inv: "#fff", b_high: "#000", b_med: "#aaa", b_low: "#000", b_inv: "#000"})
 {
   let themer = this;
 
