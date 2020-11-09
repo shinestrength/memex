@@ -21,6 +21,6 @@ const SETTINGS =
 	SHOWDONE: false,
 	SHOWPROG: true,
 	SHOWIMAG: true,
-	SHOWFILE: true,
+	SHOWFILE: false,
 	SHOWOVERLAY: true
 }
