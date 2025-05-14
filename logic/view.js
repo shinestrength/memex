@@ -190,6 +190,7 @@ function View()
       // TAGS
       if (SETTINGS.SHOWTAGS && this.isDefined(value.TAGS))
       {
+        entry += `<div class="griditem-subheading">Tags:</div>`; // <-- your heading
         entry += `<div class="griditem-tags"><i class="fas fa-tag textIcon"></i>`;
         for (var i = 0; i < value.TAGS.length; i++)
         {
