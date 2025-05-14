@@ -1,4 +1,4 @@
-**Memex** is a portfolio!.
+**Memex** is a portfolio!!
 
 [Live web version here](http://shinestrength.xyz/)
 
